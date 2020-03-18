@@ -4,4 +4,4 @@ Hello
 
 git commit -a -m
 
-test pull
+test pull.
