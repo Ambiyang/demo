@@ -11,6 +11,8 @@ wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf  //hot point configrations
 
 at last don't forget to config ip,route,dns
 
+
+
 --format tf card(Micro SD)
 DiskGenius delete original os
 PC may not recognize tf card,use DiskGenius to create division again,problem settled

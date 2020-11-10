@@ -1,0 +1,12 @@
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp
+
+ c->flags |= CODEC_FLAG_GLOBAL_HEADER;
+                     ^~~~~~~~~~~~~~~~~~~~~~~~
+                     AV_CODEC_FLAG_GLOBAL_HEADER
+
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp                                                                                                                                       
+     if (!(oc->oformat->flags & AVFMT_RAWPICTURE)) {
+                                ^~~~~~~~~~~~~~~~
+                                AVFMT_NOFILE
+
+modify as alarm fixed the error
