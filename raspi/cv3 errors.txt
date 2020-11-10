@@ -10,3 +10,13 @@
                                 AVFMT_NOFILE
 
 modify as alarm fixed the error
+
+
+make[2]: *** [modules/python3/CMakeFiles/opencv_python3.dir/build.make:322: modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/Makefile2:21049: modules/python3/CMakeFiles/opencv_python3.dir/all] エラー 2
+make: *** [Makefile:163: all] エラー 2
+
+this error happens when the error is out of cmd,following instructions in web,I set 
+make 2>&1|tee xxx.log  
+this output error and warning log to xxx.log in current path,which shows "error: invalid conversion from ‘const char*’ to ‘char*’"  
+which is an cast error by changing line 854 to char *str = (char*) PyString_AsString(obj);  the same with line 1475  
