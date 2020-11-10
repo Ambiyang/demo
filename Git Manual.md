@@ -14,5 +14,9 @@ git reset HEAD --hard (reset rep,index,work)
 git reset HEAD --soft (reset rep)  
 git reset HEAD (reset rep,index)  
 
+git rebase -i HEAD~5  
+
+
+
 
 
