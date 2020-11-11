@@ -17,6 +17,15 @@ git reset HEAD (reset rep,index)
 git rebase -i HEAD~5  
 
 
+team git
+
+git pull --rebase  
+git pull --continu  
+
+git remote -v  
+git remote add upstream url:id/rep  
+
+
 
 
 
