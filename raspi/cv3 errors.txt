@@ -19,4 +19,4 @@ make: *** [Makefile:163: all] エラー 2
 this error happens when the error is out of cmd,following instructions in web,I set 
 make 2>&1|tee xxx.log  
 this output error and warning log to xxx.log in current path,which shows "error: invalid conversion from ‘const char*’ to ‘char*’"  
-which is an cast error by changing line 854 to char *str = (char*) PyString_AsString(obj);  the same with line 1475  
+which is an cast error by changing line 854 to char *str = (char*) PyString_AsString(obj);
