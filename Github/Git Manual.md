@@ -25,6 +25,11 @@ git pull --continu
 git remote -v  
 git remote add upstream url:id/rep  
 
+#### ignore updating
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+
 
 
 
